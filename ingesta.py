@@ -4,7 +4,7 @@ import csv
 import os
 
 # ── Configuración MySQL ──────────────────────────
-DB_HOST     = os.environ.get("DB_HOST", "75.101.242.126")  # IP 
+DB_HOST     = os.environ.get("DB_HOST", "172.31.31.17")  # IP Privada
 DB_USER     = os.environ.get("DB_USER", "ingesta_user")
 DB_PASSWORD = os.environ.get("DB_PASSWORD", "123456")
 DB_NAME     = os.environ.get("DB_NAME", "testdb")
