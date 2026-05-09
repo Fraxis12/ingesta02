@@ -4,7 +4,7 @@ import csv
 import os
 
 # ── Configuración MySQL ──────────────────────────
-DB_HOST = "172.31.31.17"
+DB_HOST = "127.0.0.1"
 DB_USER = "ingesta_user"
 DB_PASSWORD = "123456"
 DB_NAME = "testdb"
