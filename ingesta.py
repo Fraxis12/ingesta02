@@ -4,11 +4,11 @@ import csv
 import os
 
 # ── Configuración MySQL ──────────────────────────
-DB_HOST     = os.environ.get("DB_HOST", "172.31.31.17")  # IP Privada
-DB_USER     = os.environ.get("DB_USER", "ingesta_user")
-DB_PASSWORD = os.environ.get("DB_PASSWORD", "123456")
-DB_NAME     = os.environ.get("DB_NAME", "testdb")
-DB_TABLE    = os.environ.get("DB_TABLE", "clientes")
+DB_HOST = "172.31.31.17"
+DB_USER = "ingesta_user"
+DB_PASSWORD = "123456"
+DB_NAME = "testdb"
+DB_TABLE = "clientes"
 
 # ── Configuración S3 ─────────────────────────────
 BUCKET_NAME  = "tareaaa"          # bucket
