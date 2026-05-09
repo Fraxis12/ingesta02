@@ -11,7 +11,7 @@ DB_NAME     = os.environ.get("DB_NAME", "testdb")
 DB_TABLE    = os.environ.get("DB_TABLE", "clientes")
 
 # ── Configuración S3 ─────────────────────────────
-BUCKET_NAME  = "tareaaa"          # ← cambia por tu bucket
+BUCKET_NAME  = "tareaaa"          # bucket
 CSV_FILENAME = "data_mysql.csv"
 
 # ── 1. Leer datos desde MySQL ────────────────────
